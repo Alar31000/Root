@@ -1,6 +1,6 @@
 package inf1563;
 
-public class NYSprint {
+public class Cercle {
 	public static void main (String[] args){
 		
 		
@@ -14,9 +14,11 @@ public class NYSprint {
 		
 		double velocity;
 		
-		double Timimg = ( hours * 3600 ) + ( minutes * 60 ) + ( seconds );
+		double Timing = ( hours * 3600 ) + ( minutes * 60 ) + ( seconds );
+		
+		Timing = Timing /3600;
 				
-		velocity = distance / (Timimg /3600);
+		velocity = distance / Timing;
 		
 		
 		System.out.println(velocity);
